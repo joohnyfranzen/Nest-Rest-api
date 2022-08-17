@@ -61,7 +61,7 @@ _ Bookmarks _
 [GET] '/bookmarks/:id' - SHOW
 [POST] '/bookmarks' - STORE
 [PATCH] '/bookmarks/:id' - UPDATE
-[DELETE] '/:id' - DELETE
+[DELETE] '/bookmarks/:id' - DELETE
 ```
 
 ### Comandos
