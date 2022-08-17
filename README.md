@@ -66,31 +66,31 @@ _ Bookmarks _
 
 ### Comandos
 
-1.Modo Normal
--npm run docker:init
+-Modo Normal
+1.npm run docker:init
 Inicia o docker
--npm run prisma:dev:deploy
+2.npm run prisma:dev:deploy
 Roda as migrations do prisma
--npm run db:dev:rm
+3.npm run db:dev:rm
 Remove o banco de dados do Docker
--npm run db:dev:up
+4.npm run db:dev:up
 Cria o banco de dados do Docker
--npm run db:dev:restart
+5.npm run db:dev:restart
 Roda os três comandos acima, Prisma migrations e Docker remove e up
--npm run prisma
+6.npm run prisma
 Iniciar o prisma studio em modo normal
 
-2.Modo Teste
--npm run prisma:dev:deploy
+-Modo Teste
+1.npm run prisma:dev:deploy
 Roda as migrations do prisma no modo de teste
--npm run db:test:rm
+2.npm run db:test:rm
 Remove o banco de dados do Docker no modo de teste
--npm run db:test:up
+3.npm run db:test:up
 Cria o banco de dados do Docker no modo de teste
--npm run db:test:restart
+4.npm run db:test:restart
 Roda os três comandos acima em modo de teste, Prisma migrations e Docker remove e up
--npm run prisma-test
+5.npm run prisma-test
 Iniciar o prisma studio em modo de teste
 
-3.Teste e2e
--npm run test:e2e
+-Teste e2e
+1.npm run test:e2e
