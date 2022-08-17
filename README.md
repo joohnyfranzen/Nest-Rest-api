@@ -16,7 +16,9 @@
 ## Desenvolvido em Nest.Js o projeto possui:
 - Prisma como Orm
 - Banco de dados Prisma para teste 
-- Teste end-to-end  
+- Teste end-to-end
+- Autenticação
+- Token
 
 
 ### Requisitos para teste da aplicação:
