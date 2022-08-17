@@ -21,20 +21,20 @@
 - Token
 
 
-### Requisitos para teste da aplicação:
+## Requisitos para teste da aplicação:
 - Node.js
 - Nest.js
 - Docker
 - Prisma
 - Clone do projeto
 
-### Inicialização:
+## Inicialização:
 1. Abra o projeto em um editor de programação
 2. Instale os modulos utilizados com 'npm install'
 3. Configure o arquivo .env
 4. Utilize dos comandos para teste ou inicialização
 
-### Banco de dados:
+## Banco de dados:
 - User
 1. Email
 2. Hash
@@ -46,7 +46,7 @@
 2. Description
 3. Link
 
-### Rotas:
+## Rotas:
 ```
 _ User _
 [GET] '/users/me - SHOW
@@ -64,7 +64,7 @@ _ Bookmarks _
 [DELETE] '/bookmarks/:id' - DELETE
 ```
 
-### Comandos
+## Comandos
 
 ### Modo Normal
 1. npm run docker:init
